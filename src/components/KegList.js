@@ -28,7 +28,8 @@ const styleObj = {
 }
 
 Keg.propTypes = {
-  Items: PropTypes.array,
+  Kegs: PropTypes.array,
+  onKegSelection: PropTypes.function
 }
 
 

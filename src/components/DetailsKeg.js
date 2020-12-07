@@ -47,7 +47,12 @@ DetailsKeg.propTypes = {
   keg: PropTypes.object,
   onChangeKegQuantityClick: PropTypes.func,
   onClickingDelete: PropTypes.func,
-  onClickingEdit: PropTypes.func
+  onClickingEdit: PropTypes.func,
+  Name: PropTypes.string,
+  Price: PropTypes.number,
+  Brand: PropTypes.string,
+  AlcoholContent: PropTypes.number,
+  Quantity: PropTypes.Number,
 };
 
 export default DetailsKeg;

@@ -30,7 +30,14 @@ function EditKegForm (props) {
 }
 
 EditKegForm.propTypes = {
-  onEditKeg: PropTypes.func
+  onEditKeg: PropTypes.func,
+  Name: PropTypes.string,
+  Price: PropTypes.number,
+  Brand: PropTypes.string,
+  AlcoholContent: PropTypes.number,
+  Quantity: PropTypes.Number,
+  
+  
 };
 
 export default EditKegForm;
